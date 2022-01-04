@@ -1,0 +1,7 @@
+CREATE TABLE `message` (
+  `id` int(11) NOT NULL,
+  `subjects` varchar(30) NOT NULL,
+  `email` varchar(30) NOT NULL,
+  `attachment` text NOT NULL,
+  `message` varchar(80) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
